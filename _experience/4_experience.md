@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team Leader @ Beihang Robot Team for ABU ROBOCON competition
+tutor: Rong Liu
 description: 
 - Working on Force Control and MPC of quadruped Robot
 img: /assets/img/BR.jpg
