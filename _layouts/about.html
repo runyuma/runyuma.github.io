@@ -48,6 +48,35 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+
+          {% if page.projects %}
+          <pre></pre>
+          <h2>Selected Projects</h2>
+          <div class="projects">
+            <div class="container">
+              <div class="row row-cols-1">
+                {% for project in site.projects %}
+                {% include selected_projects.html %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+      
+          {% if page.experience %}
+          <pre></pre>
+          <h2> Experience </h2>
+          <div class="experience">
+            <div class="container">
+              <div class="row row-cols-1">
+                {% for experience in site.experience %}
+                {% include experience.html %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
