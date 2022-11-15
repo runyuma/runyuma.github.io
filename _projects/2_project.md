@@ -15,7 +15,7 @@ selected: true
 The control system consists of:
 - *Visual-aid* grabbing system
 - Perception system based on *EKF* and *Particle filter*
-- Planning & navigation system based on *A** (global planner) and *TEB*(local planner)
+- Planning & navigation system based on *Dijkstra* (global planner) and *TEB*(local planner)
 - Main controller with work flow scheduling
 
 <div class="row">
