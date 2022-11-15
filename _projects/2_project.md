@@ -7,6 +7,7 @@ importance: 2
 category: work
 selected: true
 ---
+[Competition video](https://www.youtube.com/watch?v=spmqUu7r-n0).
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Bsc_robot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
