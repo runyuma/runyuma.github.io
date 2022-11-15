@@ -12,4 +12,4 @@ selected: true
         {% include figure.html path="assets/img/medrobot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-Unpublished yet, submited to RA-L
+Unpublished yet, plan to submit to RA-L in Dec 2022.
